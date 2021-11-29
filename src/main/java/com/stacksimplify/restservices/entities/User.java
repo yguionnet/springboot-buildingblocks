@@ -11,9 +11,10 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+
 @Entity
 @Table(name = "user")
-public class User {
+public class User   {
 	
 	@Id
 	@GeneratedValue

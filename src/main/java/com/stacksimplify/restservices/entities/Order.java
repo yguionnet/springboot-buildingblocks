@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name = "orders")
-public class Order {
+public class Order  {
 
 	@Id
 	@GeneratedValue
